@@ -4,11 +4,11 @@ function oldEnough(age) {
   }
 }
 function underAge(age) {
-  if (underage < 18) {
+  if (age < 18) {
     return "under age";
   }
 }
-function legalspeed(speed) {
+function legalSpeed(speed) {
   if (speed <= 50) {
     return "legal speed";
   }
@@ -20,5 +20,6 @@ function isGoldenYears(age) {
 }
       
   
+
 
 
